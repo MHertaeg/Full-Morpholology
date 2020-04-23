@@ -7,5 +7,7 @@ Full morphology (FM) analysis is a quasi-static gemometric method for characteri
 ## Code Walkthrough
 The first step is completed in the function *** where every voxel in the void space is assigned a number that corresponds to the distance to the closest solid phase voxel. The output of this step is saved as *** and is passed onto the *** function which fills the void space will spheres of the specified radius. The output of this function is saved as ***, this is a 3D matlab matrix with values that vary from 0-2 depending on the phase ocupying that voxel. 0 - non wetting phase, 1 - wetting phase and 2 solid phase.
 ## References
+
 Hazlett, R. D. Transport in Porous Media 1995, 20, 21–35. 
+
 Masoodi, Reza, and Krishna M. Pillai, eds. Wicking in porous materials: traditional and modern modeling approaches. CRC Press, 2012 p 136-140.
