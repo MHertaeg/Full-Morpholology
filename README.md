@@ -7,9 +7,9 @@ Full morphology (FM) analysis is a quasi-static gemometric method for characteri
 ## Contents 
 run.m - Calles all funtions in order
 
-measure_distance.m - Function that measures distance of each void space voxel to the nearest solid phase voxel
+measure_distance.m - Function measures distance of each void space voxel to the nearest solid phase voxel
 
-fill_spheres.m - Functio that places spheres of specified dimentions into void space
+fill_spheres.m - Function places spheres of specified dimentions into void space
 
 example_geom.m - Simple 3D geometry for demonstration
 
