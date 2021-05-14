@@ -11,7 +11,7 @@ measure_distance.m - Function measures distance of each void space voxel to the 
 
 fill_spheres.m - Function places spheres of specified dimentions into void space
 
-example_geom.m - Simple 3D geometry for demonstration
+example_geom.mat - Simple 3D geometry for demonstration
 
 
 ## Code Walkthrough
