@@ -18,7 +18,7 @@ example_geom.mat - Simple 3D geometry for demonstration
 The first step is completed in the function 'measure_distance' where every voxel in the void space is assigned a number that corresponds to the distance to the closest solid phase voxel. The output of this step is saved as 'radius_map.mat' and is passed onto the 'fill_spheres' function which fills the void space with spheres of the specified radius. The output of this function is saved as zones, this is a 3D matrix where the value of each entry is dependant on the phase ocupying that voxel. 0 - non wetting phase, 1 - wetting phase and 2 - solid phase. Example 2D slices of this matrix are displayed for each specified radius.
 
 ## Notes
-For large images parralel for loops (parfor) decrease solving time significantly
+For large images the use of parralel for loops (parfor) decreases solving time significantly
 
 
 ## References
