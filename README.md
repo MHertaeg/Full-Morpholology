@@ -1,5 +1,5 @@
 # Full-Morpholology
-Custom Matlab function used to analyse liquid penetration into porous media. Determines the level of infiltration at specified capillary pressures. Algorith based on technique first developed by Hazlett (1995).
+Custom Matlab function used to analyse liquid penetration into porous media. Determines the level of infiltration at specified capillary pressures. Algorithm based on technique first developed by Hazlett (1995). Written to analyse paper structure in Hertaeg (2020).
 
 ## Summary of Full Morphology Analysis
 Full morphology (FM) analysis is a quasi-static gemometric method for characterising the saturation in a porous media at different values of capillary pressure. The method requires an image of the sample under investigation. The FM algorith fits spheres of constant size into the void spaces in the media. The radius of these spheres is calculated from a predetermined capillary pressure with the Young-Laplace equation. The positions of these spheres represents the non-wetting phase and the remaining void space not occupied by spheres represent the wetting phase. This operation can be completed with different sized spheres corresponding to different capillary pressures. For a full description of full morphology analysis technique see Masooni et al. (2012). 
@@ -24,6 +24,8 @@ For large images the use of parralel for loops (parfor) decreases solving time s
 ## References
 
 Hazlett, R. D. Transport in Porous Media 1995, 20, 21–35. 
+
+Hertaeg, M. J., Tabor, R. F., Berry, J. D., & Garnier, G. (2020). Radial Wicking of Biological Fluids in Paper. Langmuir, 36(28), 8209-8217.
 
 Masoodi, Reza, and Krishna M. Pillai, eds. Wicking in porous materials: traditional and modern modeling approaches. CRC Press, 2012 p 136-140.
 
